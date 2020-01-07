@@ -1,9 +1,27 @@
 baseurl = "/"
 languageCode = "en-us"
 languageLang = "en"
-title = "Homepage"
+title = "Jorge Avante"
+copyright = "Copyright &copy; 2020 - Jorge Avante"
+canonifyurls = true
+theme = "hugo-kiera"
 
+paginate = 3
+
+summaryLength = 30
+enableEmoji = true
+pygmentsCodeFences = true
+
+[author]
+  name = "Jorge Avante"
+  twitter = "ikarigeorge"
+
+[params]
+  tagline = "Web development"
 # RSS, categories and tags disabled for an easy start
 # See configuration options for more details: 
 # https://gohugo.io/getting-started/configuration/#toml-configuration
-disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
+disableKinds = ["RSS"]
+
+[taxonomies]
+  tag="tags"
