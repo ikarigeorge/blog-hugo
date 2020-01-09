@@ -15,11 +15,10 @@ from datetime import date
 
 today = date.today()
 dict = { 
-  "today": today,
-  "foo": "bar"
+  'today': today,
+  'foo': 'bar'
 }
 print(json.dumps(dict))
-
 ```
 
 This code will fail with the following error: TypeError: Object of type date is not JSON serializable
