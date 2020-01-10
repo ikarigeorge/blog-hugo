@@ -1,5 +1,5 @@
 ---
-title: Running an angular project in AWS Cloud9
+title: Running an Angular project in AWS Cloud9
 date: 2020-01-10T13:06:20.498Z
 tags:
   - angular
@@ -7,7 +7,7 @@ tags:
   - aws
   - cloud9
 ---
-Since Cloud9 was acquired by AWS, few changes made the development of Angular or any web application a little bit trickier. The following steps are necessary to visualize or share a running angular development application:
+Since Cloud9 was acquired by AWS, few changes made the development of an Angular or any web application a little bit trickier to preview. The following steps are necessary to visualize or share a running angular development application:
 
 First, we need to change the EC2's security parameters, as described in this post: https://community.c9.io/t/what-is-vfs-connection-does-not-exist-on-aws-c9/22697/17
 
@@ -21,7 +21,7 @@ First, we need to change the EC2's security parameters, as described in this pos
    * Source: Anywhere (Warning: this makes your app public to the world, for local dev you can choose "My IP", but beware normally your internet provider will change this IP regularly and you need to repeat this step again)
 5. Click Save
 
-Next, instead of just running `ng serve` to start the angular app, run or add to package.json the following command:ng
+Next, instead of just running `ng serve` to start the angular app, run or add to package.json the following command:
 
 ```
 ng serve --host 0.0.0.0 --disableHostCheck
