@@ -5,9 +5,9 @@ tags:
   - python
   - snippets
 ---
-When working with dictionaries in python, sometimes the attributes type are not serializable. Specially with dates and times, which is a common attribute when building API answers for example.
+When working with dictionaries in python, sometimes the attributes types are not serializable. This ca happen specially with dates and times, which are common attributes when building API interfaces for example.
 
-The problem comes when we need to convert it as a JSON string. Since some types are not serializable. Take the following snippet:
+The problem comes when we need to convert it as a JSON string. Take the following snippet:
 
 ```
 import json
@@ -21,7 +21,7 @@ dict = {
 print(json.dumps(dict))
 ```
 
-This code will fail with the following error: TypeError: Object of type date is not JSON serializable
+This code will fail with the following error: `TypeError: Object of type date is not JSON serializable`
 
 To avoid this, we can pass the "default" argument to the dumps method:
 
