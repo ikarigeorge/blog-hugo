@@ -26,8 +26,12 @@ sudo gem install fluentd
 ```
 
 And the fluentd plugins that we will use:
-```sudo fluent-gem install fluent-plugin-td```
-```sudo fluent-gem install fluent-plugin-mongo```
+```
+sudo fluent-gem install fluent-plugin-td
+```
+```
+sudo fluent-gem install fluent-plugin-mongo
+```
 
 That's all, now fluentd is installed
 
