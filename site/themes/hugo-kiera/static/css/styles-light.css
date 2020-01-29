@@ -103,6 +103,7 @@ h1 {
   font-size: 1.25rem;
   letter-spacing: 0.25px;
   word-spacing: -1.05px;
+  overflow-wrap: break-word;
 }
 
 #container main section#home ul {
