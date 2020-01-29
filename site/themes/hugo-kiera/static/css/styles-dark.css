@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  font-family: "Roboto Slab", serif;
+  font-family: "Georgia", serif;
   color: #ffffff;
   background: #2A2829;
 }
@@ -14,7 +14,12 @@ h4,
 h5,
 h6,
 time {
-  font-family: "Ruda", sans-serif;
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+h1 {
+  letter-spacing: 0.25px;
+  word-spacing: -2px;
 }
 
 #container {
@@ -74,7 +79,7 @@ time {
 #container nav {
   border-bottom: solid 3px #cecece;
   padding-bottom: 0.5em;
-  font-family: "Ruda", sans-serif;
+  font-family: "Trebuchet MS", sans-serif;
 }
 
 #container nav ul {
@@ -95,8 +100,10 @@ time {
 
 #container main {
   flex: 1 0 0;
-  line-height: 1.5;
-  font-size: 1.2rem;
+  line-height: 1.4;
+  font-size: 1.25rem;
+  letter-spacing: 0.25px;
+  word-spacing: -1.05px;
 }
 
 #container main section#home ul {
@@ -241,7 +248,7 @@ width: 100%;
 
 .meta-aside, #container main section#home ul li aside, #container main article aside {
   margin: 0.5em 0;
-  font-family: "Ruda", sans-serif;
+  font-family: "Trebuchet MS", sans-serif;
   color: #909090;
   font-size: 0.8em;
 }
