@@ -6,15 +6,16 @@ tags:
   - snippets
   - regexp
 ---
-Sometimes it is necessary to replace some text inside a file using the `sed` command. But what if the text to search for is not fixed but has some pattern?
+Sometimes it is necessary to replace some text inside a file using the `sed` command. However, what if the text to search for is not fixed but has some pattern?
 
-A regular expression can be used alongside sed 🙂. Let's suppose we have the following listA.txt and listB.txt
+A regular expression can be used alongside `sed` 🙂. Let's suppose we have the following `listA.txt` and `listB.txt` files:
 
 ```
 name=John,email=john@myurl.com
 name=Eva,email=eva@myurl.com
 name=Laurie,email=laurie@anotherurl.com
 ```
+
 ```
 order=12324,email=john@myurl.com
 order=45656,email=eva@myurl.com
@@ -27,7 +28,9 @@ for i in list*.txt; do
     sed -i -r 's/\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}\.?[a-zA-Z]{0,3}/XXXXX/g' $i
 done
 ```
-The result would be for example:
+
+What the *\-r* option does, is to accept as input a regular expression, instead of just searching for a fixed string. The result would be for example:
+
 ```
 name=John,email=XXXXX
 name=Eva,email=XXXXX
