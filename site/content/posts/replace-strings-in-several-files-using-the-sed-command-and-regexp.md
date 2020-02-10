@@ -1,5 +1,5 @@
 ---
-title: Replace strings in several files using the sed command and RegExp
+title: Replace a string pattern in several files using the sed command and RegExp
 date: 2020-02-10T15:39:25.588Z
 tags:
   - linux
