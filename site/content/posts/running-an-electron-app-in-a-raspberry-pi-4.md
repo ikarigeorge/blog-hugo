@@ -12,7 +12,7 @@ This can be fixed at runtime with the command:
 electron . --disable-gpu
 ```
 
-However, when packaging or distributing your app, it may be neccesary to disable the gpu from the code, to do that, you need to do the following before the app is ready:
+However, when packaging or distributing your app, it may be necessary to disable the gpu from the code, to do that, you need to do the following before the app is ready:
 ```
 app.disableHardwareAcceleration();
 ```
