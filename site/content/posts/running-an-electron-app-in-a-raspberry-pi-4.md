@@ -1,5 +1,5 @@
 ---
-title: Running an Electron app in a Raspberry Pi 4
+title: Running an Electron app on a Raspberry Pi 4
 date: 2020-09-11T23:21:52.805Z
 tags:
   - rpi4
