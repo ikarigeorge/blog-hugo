@@ -15,9 +15,9 @@ today = datetime.now(timezone(timedelta(hours=2)))
 ```
 
 
-Substracting dates:
+Subtracting dates:
 
-When making a substraction (or any other operation) between two dates or datetimes, python will give you a timedelta object, however you may want to have some time object or a date object. In order to do so, the `total_seconds` method can help you:
+When making a subtraction (or any other operation) between two dates or datetimes, python will give you a timedelta object, however you may want to have some time object or a date object. In order to do so, the `total_seconds` method can help you:
 
 ```
 seconds = (datetime.now - myDate).total_seconds()
