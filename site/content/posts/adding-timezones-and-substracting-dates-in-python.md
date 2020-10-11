@@ -21,3 +21,4 @@ When making a substraction (or any other operation) between two dates or datetim
 
 ```
 seconds = (datetime.now - myDate).total_seconds()
+```
