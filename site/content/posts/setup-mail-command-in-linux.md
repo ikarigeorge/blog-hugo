@@ -1,6 +1,6 @@
 ---
 title: Setup mail command in linux
-date: 2024-09-13T17:52:25.073Z
+date: 2024-09-13T14:52:25.073Z
 tags:
   - linux
 ---
