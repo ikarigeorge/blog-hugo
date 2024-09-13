@@ -96,3 +96,10 @@ To test, you can send an email like this:
 ```
 echo "hello world" | mail -s "test email" foo@bar.com
 ```
+
+
+Extra: if your application is throwing an error, saying "sendmail: account default not found" or something like that, verify that the user belongs to the "msmtp" group and check that the binary is correct:
+```
+chown root:msmtp /etc/msmtprc
+chmod 640 /etc/msmtprc
+```
