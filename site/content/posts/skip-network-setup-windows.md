@@ -12,4 +12,10 @@ In the Terminal that will be shown, enter following:
 "OOBE /BYPASSNRO"
 ```
 
+or if your windows version supports it, even better:
+
+```
+start ms-cxh:localonly
+``
+
 Setup will restart and a new option will be shown in the network step.
